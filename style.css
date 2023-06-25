@@ -1,0 +1,522 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* .home {
+    display: flex;
+    flex-direction: row;
+} */
+
+
+/* main page-------------------------------------- */
+.main_p {
+
+    height: auto;
+    background: url(./svgs/Home-5.svg);
+    background-size: cover;
+    width: 100%;
+    align-items: center;
+    overflow-x: hidden;
+    z-index:1000;
+
+}
+
+.main_p_pic img {
+
+    height: 35em;
+    width: 40em;
+    padding-bottom:10vh;
+    padding-top: 5vh;
+}
+
+.placeholder2 {
+    margin-top: 25vh;
+    margin-left: 6vw;
+}
+
+.head2 {
+    font-family: 'Marcellus SC', serif;
+    font-size: 25px;
+}
+
+.pl-3 {
+    margin-top: 2vh;
+    margin-left: 5vw;
+}
+
+.head3 {
+    font-family: 'Pacifico', cursive;
+    font-size: 90px;
+}
+
+.head4 {
+    display: inline-block;
+    margin-left: 2vw;
+    font-family: 'Pacifico', cursive;
+    font-size: 74px;
+}
+
+.placeholder3 {
+    margin-left: 6vw;
+}
+
+
+
+/* ------------------------------------------aboutme */
+.abt_me {
+    /* position: fixed; */
+    height: auto;
+    background: url(./svgs/About_me.svg);
+    background-size: cover;
+    width: 100%;
+    align-items: center;
+    overflow-x: hidden;
+
+
+}
+
+.abt_me_auth {
+    margin-top: 10em;
+    display: grid;
+    align-items: center;
+
+}
+
+
+.abt_me_auth h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    text-align: start;
+}
+
+.abt_me_auth h3 {
+    text-align: start;
+    font-weight: 350;
+    margin-top: 2em;
+    /* font-family: 'Marcellus SC', serif; */
+}
+
+.abt_me_pic {
+    margin-top: 10em;
+    margin-bottom: 2em;
+}
+
+.abt_me_pic img {
+
+    height: 40em;
+    width: 28em;
+}
+
+/* -------------------------------------------about book-- */
+
+
+.abt_book {
+    height: auto;
+    background: url(./svgs/About_book.svg);
+    background-size: cover;
+    width: 100%;
+    align-items: center;
+    overflow-x: hidden;
+
+}
+
+.abt_book_cnt h3 {
+    text-align: start;
+    font-weight: 300;
+    font-size: 25px;
+
+}
+
+.abt_book_cnt h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    text-align: start;
+}
+
+.abt_book_cnt {
+    margin-top: 10em;
+}
+
+.abt_book_pic img {
+
+    height: 32em;
+    width: 20em;
+    margin-top: 10em;
+    margin-left: 5em;
+}
+
+
+/* -----------------------------------book trailer---- */
+
+
+
+
+.book_tra {
+
+    height: 125vh;
+
+    background: url(./svgs/Book\ trailer-new.com.svg);
+    background-size: cover;
+    /* width: 100%; */
+    align-items: center;
+    overflow-x: hidden;
+    z-index: 1000;
+
+}
+
+.video-head {
+    font-family: 'Pacifico', cursive;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.video {
+    position: relative;
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding: 2vh;
+
+}
+
+.video iframe {
+    /* position:absolute; */
+
+}
+
+.YT_links {
+    height: auto;
+    background: url(./svgs/FAQs\ \(1\).svg);
+    background-size: cover;
+    width: 100%;
+    align-items: center;
+    overflow-x: hidden;
+
+}
+
+.header-links {
+    font-family: 'Marcellus SC', serif;
+    font-size: 70px;
+}
+
+.event-box-1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-gap: 50px;
+    padding: 19px 2px;
+    padding-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+    align-items: stretch;
+}
+
+.event-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 50px;
+    padding: 29px 1px;
+    padding-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+    align-items: stretch;
+}
+
+.single-event {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.single-event-1 {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.single-event:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.single-event-1:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+
+/* ----------------------cards */
+.row2 {
+    margin-top: 40px;
+}
+
+.main_cd_1 {
+    /* display: grid; */
+    /* justify-content: center; */
+
+}
+
+.card_11 {
+
+    margin-top: 18em;
+    /* margin-left: 2em;    */
+    /* align-items: flex-start; */
+}
+
+.card_12 {
+    margin-top: 18em;
+    /* margin-left:40vw; */
+    /* margin-left: 50em; */
+    /* align-items: flex-end;   */
+    align-self: flex-end;
+}
+
+.main_cd_2 {
+    margin-top: 12em;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.vi-1 {
+    width: 400px;
+}
+
+/* .card_21{
+    margin-left: 2em;
+}
+
+.card_23{
+    margin-right: 2em;
+} */
+
+@keyframes example {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0.2;
+    }
+
+    40% {
+        opacity: 0.4;
+    }
+
+    60% {
+        opacity: 0.6;
+    }
+
+    80% {
+        opacity: 0.8;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.anime {
+    width: 100vw;
+    height: auto;
+    animation-name: example;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    position: relative;
+}
+@media screen and (min-width:1000px) {
+    .book_tra {
+
+        height: auto;
+    
+        background: url(./svgs/book_new_trailer.svg);
+        background-size: cover;
+       
+        align-items: center;
+        overflow-x: hidden;
+        z-index: 1000;
+    
+    }
+}
+@media screen and (max-width:500px) {
+    .video {
+        /* position: relative; */
+        display: block;
+        margin: auto;
+        padding: 5vh;
+
+    }
+    .video-head {
+        font-family: 'Pacifico', cursive;
+        font-size: 45px;
+        text-align: center;
+        margin-top: 3vh;
+    }
+
+    .video iframe {
+        margin-top: 1vh;
+        width: 350px;
+        height: 300px;
+    }
+
+    .single-event-1 iframe {
+        width: 390px;
+        height: 315px;
+    }
+
+    .single-event iframe {
+        width: 390px;
+        height: 315px;
+    }
+
+    .event-box {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        grid-gap: 50px;
+        padding: 29px 5px;
+        padding-bottom: 0;
+        font-family: 'Poppins', sans-serif;
+        align-items: normal;
+    }
+
+    .event-box-1 {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        grid-gap: 50px;
+        padding: 29px 5px;
+        padding-bottom: 0;
+        font-family: 'Poppins', sans-serif;
+        align-items: center;
+    }
+
+    .book_tra {
+        height: auto;
+        background: url(./svgs/book-mobile.com\ \(500\ ×\ 667px\)\ \(1\).svg);
+        z-index: 100;
+    }
+    .head3 {
+        font-family: 'Pacifico', cursive;
+        font-size: 60px;
+    }
+    .abt_me_auth h1 {
+        font-family: 'Pacifico', cursive;
+        font-size: 50px;
+        text-align: start;
+    }
+    .header-links {
+        font-family: 'Pacifico', cursive;
+        font-size: 50px;
+    }
+    .placeholder2 {
+        margin-top: 5vh;
+        margin-left: 6vw;
+    }
+}
+
+
+/* ------------------------for abt_book-- */
+@media only screen and (max-width: 767px) {
+    .book_desk {
+        display: none;
+    }
+
+    .abt_book_cnt {
+        margin-top: 2em;
+    }
+.main_p
+{
+    height:auto;
+}
+    .main_p_pic img {
+        margin-top: 2em;
+        height: 20em;
+        width: 23em;
+    }
+
+    .book_mob {
+        display: block;
+    }
+
+    .abt_book_pic img {
+
+        height: 25em;
+        width: 17em;
+        margin-top: 2em;
+        margin-left: 0em;
+    }
+
+    .abt_book_cnt h3 {
+        text-align: start;
+        font-weight: 400;
+        font-size: 25px;
+
+    }
+
+    .abt_me_pic img {
+        height: 30em;
+        width: 20em;
+
+
+    }
+
+    .abt_me_pic {
+        margin-top: 3em;
+        margin-bottom: 2em;
+    }
+
+    .main_p {
+
+       
+        background: url(./svgs/Home.svg);
+        background-repeat: no-repeat;
+    
+    }
+
+    .abt_me {
+        background: url(./svgs/About.svg);
+        background-repeat: no-repeat;
+      
+    
+    
+    }
+
+    .abt_book {
+    
+        background: url(./svgs/About_book_mobile.png);
+        background-repeat: no-repeat;
+  
+    
+    }
+
+
+
+}
+
+@media (min-width: 767px) {
+    .book_desk {
+        display: block;
+    }
+
+    .book_mob {
+        display: none;
+    }
+}
