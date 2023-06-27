@@ -428,12 +428,12 @@ body {
     }
 
     .head3 {
-        font-family: 'Pacifico', cursive;
+        font-family: 'Nostalgic Memories';
         font-size: 60px;
     }
 
     .abt_me_auth h1 {
-        font-family: 'Pacifico', cursive;
+        font-family: 'Nostalgic Memories';
         font-size: 50px;
         text-align: start;
     }
@@ -471,7 +471,7 @@ body {
 
     .main_p_pic img {
         margin-top: 2em;
-        height: 20em;
+        height: 30em;
         width: 23em;
     }
 
