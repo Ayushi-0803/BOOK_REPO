@@ -15,21 +15,21 @@ body {
 /* main page-------------------------------------- */
 .main_p {
 
-    height:95vh;
+    height: 95vh;
     background: url(./svgs/Home-6.svg);
     background-size: cover;
     width: 100%;
     align-items: center;
     overflow-x: hidden;
-    z-index:1000;
+    z-index: 1000;
 
 }
 
 .main_p_pic img {
 
-    height:32em;
+    height: 32em;
 
-    padding-bottom:10vh;
+    padding-bottom: 10vh;
     padding-top: 15vh;
 }
 
@@ -37,13 +37,15 @@ body {
     margin-top: 20vh;
     margin-left: 6vw;
 }
-.placeholder2 h2{
-    text-align:left;
+
+.placeholder2 h2 {
+    text-align: left;
 }
+
 .head2 {
     font-family: 'Marcellus SC', serif;
     font-size: 25px;
-    text-align:left;
+    text-align: left;
 }
 
 .pl-3 {
@@ -52,9 +54,9 @@ body {
 }
 
 .head3 {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Nostalgic Memories';
     font-size: 90px;
-    text-align:left;
+    text-align: left;
 }
 
 .head4 {
@@ -92,7 +94,7 @@ body {
 
 
 .abt_me_auth h1 {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Nostalgic Memories';
     font-size: 60px;
     text-align: start;
 }
@@ -119,7 +121,7 @@ body {
 
 
 .abt_book {
-    height:100vh;
+    height: 100vh;
     background: url(./svgs/Services.svg);
     background-size: cover;
     width: 100%;
@@ -136,15 +138,15 @@ body {
 }
 
 .abt_book_cnt h1 {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Nostalgic Memories';
     font-size: 60px;
     text-align: left;
-   
+
 }
 
 .abt_book_cnt {
-    margin-top:20vh; 
-    margin-left:-11vw;
+    margin-top: 20vh;
+    margin-left: -11vw;
 }
 
 .abt_book_pic img {
@@ -152,7 +154,7 @@ body {
     height: 32em;
     width: 20em;
     margin-top: 10em;
-    margin-left:-10vw;
+    margin-left: -10vw;
 
 }
 
@@ -350,20 +352,22 @@ body {
     animation-duration: 4s;
     position: relative;
 }
+
 @media screen and (min-width:1000px) {
     .book_tra {
 
         height: auto;
-    
+
         background: url(./svgs/book_new_trailer.svg);
         background-size: cover;
-       
+
         align-items: center;
         overflow-x: hidden;
         z-index: 1000;
-    
+
     }
 }
+
 @media screen and (max-width:500px) {
     .video {
         /* position: relative; */
@@ -372,6 +376,7 @@ body {
         padding: 5vh;
 
     }
+
     .video-head {
         font-family: 'Pacifico', cursive;
         font-size: 45px;
@@ -420,19 +425,23 @@ body {
         background: url(./svgs/book-mobile.com\ \(500\ ×\ 667px\)\ \(1\).svg);
         z-index: 100;
     }
+
     .head3 {
         font-family: 'Pacifico', cursive;
         font-size: 60px;
     }
+
     .abt_me_auth h1 {
         font-family: 'Pacifico', cursive;
         font-size: 50px;
         text-align: start;
     }
+
     .header-links {
         font-family: 'Pacifico', cursive;
         font-size: 50px;
     }
+
     .placeholder2 {
         margin-top: 5vh;
         margin-left: 6vw;
@@ -449,10 +458,11 @@ body {
     .abt_book_cnt {
         margin-top: 2em;
     }
-.main_p
-{
-    height:auto;
-}
+
+    .main_p {
+        height: auto;
+    }
+
     .main_p_pic img {
         margin-top: 2em;
         height: 20em;
@@ -492,26 +502,26 @@ body {
 
     .main_p {
 
-       
+
         background: url(./svgs/Home.svg);
         background-repeat: no-repeat;
-    
+
     }
 
     .abt_me {
         background: url(./svgs/About.svg);
         background-repeat: no-repeat;
-      
-    
-    
+
+
+
     }
 
     .abt_book {
-    
+
         background: url(./svgs/About_book_mobile.png);
         background-repeat: no-repeat;
-  
-    
+
+
     }
 
 
@@ -526,4 +536,14 @@ body {
     .book_mob {
         display: none;
     }
+}
+
+@font-face {
+    font-family: 'Nostalgic Memories';
+    src: local('Nostalgic Memories Italic 2'), local('Nostalgic-Memories-Italic-2'),
+        url('NostalgicMemories-Italic2.woff2') format('woff2'),
+        url('NostalgicMemories-Italic2.woff') format('woff'),
+        url('NostalgicMemories-Italic2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
 }
