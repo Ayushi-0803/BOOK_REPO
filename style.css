@@ -121,13 +121,14 @@ body {
 
 
 .abt_book {
-    height: 100vh;
+    height: auto;
     background: url(./svgs/Services.svg);
     background-size: cover;
     width: 100%;
-
+    align-items: center;
     overflow-x: hidden;
 
+   
 }
 
 .abt_book_cnt h3 {
@@ -445,6 +446,11 @@ body {
     .placeholder2 {
         margin-top: 5vh;
         margin-left: 6vw;
+    }
+
+    .abt_book_cnt {
+        margin-top: 20vh;
+        margin-left: 0;
     }
 }
 
