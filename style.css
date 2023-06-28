@@ -128,7 +128,7 @@ body {
     align-items: center;
     overflow-x: hidden;
 
-   
+
 }
 
 .abt_book_cnt h3 {
@@ -318,6 +318,181 @@ body {
 .card_23{
     margin-right: 2em;
 } */
+
+
+/* ----------------my story page 1--------- */
+
+
+.story_p1 {
+
+    height: auto;
+    background: url(./svgs/story_page_1.svg);
+    background-size: cover;
+    width: 100%;
+    align-items: center;
+    overflow-x: hidden;
+
+
+}
+
+.story_cnt h3 {
+    text-align: justify;
+    font-weight: 400;
+    font-size: 23.9999px;
+
+    margin-top: 2em;
+
+}
+
+
+.story_cnt {
+    margin-top: 3vh;
+}
+
+.s1_p1 {
+    display: grid;
+}
+
+.s1_p1 img {
+
+    height: 6em;
+    justify-self: flex-end;
+
+}
+
+.s1_p1_hd h1 {
+
+
+    font-family: 'Marcellus SC', serif;
+    font-size: 100px;
+    text-align: left;
+    margin-top: 1em;
+    margin-left: -0.8em;
+}
+
+.s1_p1_fl {
+    display: grid;
+}
+
+.s1_p1_fl img {
+    height: 15em;
+    margin-left: -10em;
+
+}
+
+.s1_p1_cnt_p1 {
+    display: grid;
+}
+
+.s1_p1_cnt_p1 img {
+    height: 4em;
+    justify-self: flex-end;
+}
+
+#p2 {
+    height: 1.5em;
+    justify-self: flex-start;
+    margin-left: -2em;
+}
+
+/* ----------------my story page 2--------- */
+
+.story_p2 {
+
+    height: auto;
+    background: url(./svgs/story_page_2.svg);
+    background-size: cover;
+    width: 100%;
+    align-items: center;
+    overflow-x: hidden;
+
+
+}
+
+.story_2_cnt h3 {
+    text-align: justify;
+    font-weight: 400;
+    font-size: 23.9999px;
+
+    margin-top: 3em;
+}
+
+.s1_p2_rd {
+    display: grid;
+    margin-top: 20em;
+}
+
+.s1_p2_rd img {
+    /* margin-top: 5em; */
+    height: 5em;
+    justify-self: flex-end;
+
+}
+
+.s1_p2_cnt_p1 {
+    display: grid;
+}
+
+.s1_p2_cnt_p1 img {
+    height: 5em;
+    justify-self: center;
+}
+
+#p3 {
+    height: 15em;
+    margin-left: -10em;
+    justify-self: flex-start;
+    margin-bottom: 5em;
+}
+
+/* ----------------my story page 3-------- */
+
+.story_p3 {
+
+    height: auto;
+    background: url(./svgs/story_page_3.svg);
+    background-size: cover;
+    width: 100%;
+    align-items: center;
+    overflow-x: hidden;
+
+
+}
+
+.s1_p3_bk {
+    margin-top: 27em;
+    display: grid;
+    
+}
+
+.s1_p3_bk img {
+
+    height: 15em;
+    margin-top: -20em;
+    justify-self: flex-end;
+    margin-left: 20em;
+   
+
+}
+
+#p4 {
+    margin-top: 1em;
+    justify-self: flex-start;
+    height: 20em;
+    margin-left: -12em;
+}
+
+#f_quote  {
+    margin-top: 5em;
+    text-align: end;
+    font-weight: 800;
+    font-style: italic;
+}
+
+
+
+
+
 
 @keyframes example {
     0% {
