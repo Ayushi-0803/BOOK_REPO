@@ -348,9 +348,40 @@ body {
 .story_cnt {
     margin-top: 3vh;
 }
+@keyframes cloud
+{
+    0% {
+           
+            left: 0px;
+            top: 100px;
+        }
+    
+        100% {
+          
+            left: 0px;
+            top: 0px;
+        }
+}
+@keyframes cloud2 {
+    0% {
 
+        left: -100px;
+        top: 0px;
+    }
+
+    100% {
+
+        left: 0px;
+        top: 0px;
+    }
+}
 .s1_p1 {
     display: grid;
+    animation-name: cloud;
+        animation-timing-function: ease-in-out;
+        animation-duration: 7s;
+        position: relative;
+    
 }
 
 .s1_p1 img {
@@ -364,9 +395,9 @@ body {
 
 
     font-family: 'Marcellus SC', serif;
-    font-size: 100px;
+    font-size: 95px;
     text-align: left;
-    margin-top: 1em;
+  
     margin-left: -0.8em;
 }
 
@@ -376,7 +407,7 @@ body {
 
 .s1_p1_fl img {
     height: 15em;
-    margin-left: -10em;
+    margin-left: -6em;
 
 }
 
@@ -412,7 +443,7 @@ body {
 .story_2_cnt h3 {
     text-align: justify;
     font-weight: 400;
-    font-size: 23.9999px;
+    font-size: 19.9999px;
 
     margin-top: 3em;
 }
@@ -421,7 +452,12 @@ body {
     display: grid;
     margin-top: 20em;
 }
-
+#new{
+animation-name: cloud;
+    animation-timing-function:ease-in-out;
+    animation-duration: 4s;
+    position: relative;
+}
 .s1_p2_rd img {
     /* margin-top: 5em; */
     height: 5em;
@@ -440,9 +476,13 @@ body {
 
 #p3 {
     height: 15em;
-    margin-left: -10em;
+    margin-left: -6em;
     justify-self: flex-start;
     margin-bottom: 5em;
+    animation-name: cloud2;
+        animation-timing-function: ease-in-out;
+        animation-duration: 4s;
+        position: relative;
 }
 
 /* ----------------my story page 3-------- */
@@ -462,6 +502,11 @@ body {
 .s1_p3_bk {
     margin-top: 27em;
     display: grid;
+animation-name: example;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    position: relative;
+        
     
 }
 
