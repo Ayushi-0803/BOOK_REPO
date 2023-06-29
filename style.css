@@ -697,6 +697,49 @@ body {
         margin-top: 20vh;
         margin-left: 0;
     }
+
+    .story_cnt h3 {
+        font-size: 18.9999px;
+    
+        margin-top: 0em;
+    
+    }
+
+    .story_2_cnt h3 {
+        font-size: 18.9999px;
+    
+        margin-top: 0em;
+    }
+
+    .s1_p1_hd h1 {
+
+
+        font-family: 'Marcellus SC', serif;
+        font-size: 80px;
+        text-align: left;
+        margin-left: 0em;
+    }
+
+    .s1_p1_hd img {
+        margin-top: -1em;
+        margin-left: 1em;
+        height: 0.25em;
+        /* margin-bottom: 0em; */
+    } 
+
+    .s1_p1_fl img {
+        height: 9em;
+        margin-left: -1em;
+    
+    }
+
+    #p2 {
+        height: 0.8em;
+        justify-self: flex-start;
+        margin-left: -0.92em;
+    }
+
+
 }
 
 
