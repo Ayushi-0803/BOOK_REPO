@@ -348,20 +348,21 @@ body {
 .story_cnt {
     margin-top: 3vh;
 }
-@keyframes cloud
-{
+
+@keyframes cloud {
     0% {
-           
-            left: 0px;
-            top: 100px;
-        }
-    
-        100% {
-          
-            left: 0px;
-            top: 0px;
-        }
+
+        left: 0px;
+        top: 100px;
+    }
+
+    100% {
+
+        left: 0px;
+        top: 0px;
+    }
 }
+
 @keyframes cloud2 {
     0% {
 
@@ -375,13 +376,14 @@ body {
         top: 0px;
     }
 }
+
 .s1_p1 {
     display: grid;
     animation-name: cloud;
-        animation-timing-function: ease-in-out;
-        animation-duration: 7s;
-        position: relative;
-    
+    animation-timing-function: ease-in-out;
+    animation-duration: 7s;
+    position: relative;
+
 }
 
 .s1_p1 img {
@@ -395,10 +397,24 @@ body {
 
 
     font-family: 'Marcellus SC', serif;
-    font-size: 95px;
+    font-size: 100px;
     text-align: left;
-  
     margin-left: -0.8em;
+}
+
+.s1_p1_hd img {
+    margin-top: -1em;
+    margin-left: 2em;
+    height: 0.3em;
+    margin-bottom: 0em;
+} 
+
+#s1_p1_hd_p2 {
+    margin-top: -1.2em;
+}
+
+#s1_hd_2 {
+    margin-top: -3em;
 }
 
 .s1_p1_fl {
@@ -443,7 +459,7 @@ body {
 .story_2_cnt h3 {
     text-align: justify;
     font-weight: 400;
-    font-size: 19.9999px;
+    font-size: 23.9999px;
 
     margin-top: 3em;
 }
@@ -452,12 +468,14 @@ body {
     display: grid;
     margin-top: 20em;
 }
-#new{
-animation-name: cloud;
-    animation-timing-function:ease-in-out;
+
+#new {
+    animation-name: cloud;
+    animation-timing-function: ease-in-out;
     animation-duration: 4s;
     position: relative;
 }
+
 .s1_p2_rd img {
     /* margin-top: 5em; */
     height: 5em;
@@ -480,9 +498,9 @@ animation-name: cloud;
     justify-self: flex-start;
     margin-bottom: 5em;
     animation-name: cloud2;
-        animation-timing-function: ease-in-out;
-        animation-duration: 4s;
-        position: relative;
+    animation-timing-function: ease-in-out;
+    animation-duration: 4s;
+    position: relative;
 }
 
 /* ----------------my story page 3-------- */
@@ -502,12 +520,12 @@ animation-name: cloud;
 .s1_p3_bk {
     margin-top: 27em;
     display: grid;
-animation-name: example;
+    animation-name: example;
     animation-timing-function: linear;
     animation-duration: 4s;
     position: relative;
-        
-    
+
+
 }
 
 .s1_p3_bk img {
@@ -516,7 +534,7 @@ animation-name: example;
     margin-top: -20em;
     justify-self: flex-end;
     margin-left: 20em;
-   
+
 
 }
 
@@ -527,11 +545,18 @@ animation-name: example;
     margin-left: -12em;
 }
 
-#f_quote  {
+#f_quote {
     margin-top: 5em;
     text-align: end;
     font-weight: 800;
     font-style: italic;
+}
+
+
+#p6   {
+    height: 1em;
+    margin-bottom: 0.5em;
+   
 }
 
 
