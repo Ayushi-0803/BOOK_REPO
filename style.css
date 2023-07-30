@@ -320,6 +320,34 @@ body {
 } */
 
 
+
+/* ----------------front page 1--------- */
+.frontpg-1
+{
+   
+
+    width: 100%;
+    align-items: center;
+    overflow-x: hidden;
+ 
+}
+
+.photo
+{
+ margin-top:-10vh;
+    margin-left:10vw;
+}
+
+
+
+.hp1
+{
+    font-family:" Hatton Medium";
+    font-size: 5em;
+    margin-top:10vh;
+    margin-left:2vw;
+}
+
 /* ----------------my story page 1--------- */
 
 
@@ -399,7 +427,7 @@ body {
     font-family: 'Marcellus SC', serif;
     font-size: 100px;
     text-align: left;
-    margin-left: -0.8em;
+    margin-left:-0.2em;
 }
 
 .s1_p1_hd img {
@@ -542,7 +570,7 @@ body {
     margin-top: 1em;
     justify-self: flex-start;
     height: 20em;
-    margin-left: -12em;
+    margin-left: -10em;
 }
 
 #f_quote {
@@ -561,9 +589,43 @@ body {
 
 
 
+.finalpg{
+    background-size: cover;
+     height:auto;
+    align-items: center;
+    overflow-x: hidden;
+    z-index: 1000;
+ }
+ 
+.ele2
+{
+    margin-top:-95vh;
+}
+.bl1
+{
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    max-width: 300px;
+    margin-top: -80vh;
+    margin-left: 20vh;
 
+}
+.bl2
+{
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    max-width: 300px;
+    margin-top: -80vh;
+    
+}
+.int-ele1
+{
+    display:flex;
 
-
+    padding-left:50vh;
+}
 @keyframes example {
     0% {
         opacity: 0;
@@ -598,6 +660,9 @@ body {
     animation-duration: 4s;
     position: relative;
 }
+
+
+
 
 @media screen and (min-width:1000px) {
     .book_tra {
