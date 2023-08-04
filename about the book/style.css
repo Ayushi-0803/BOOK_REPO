@@ -1,0 +1,311 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+/* glimpse 1-------------------- */
+
+
+.glimpse-1 {
+    /* position: fixed; */
+    height: auto;
+    width: 100%;
+    align-items: center;
+    overflow-x: hidden;
+
+}
+
+.glimpse-1_content {
+    margin-top: 5em;
+    display: grid;
+    align-items: center;
+}
+
+
+.glimpse-1_content img {
+    margin-left: -20em;
+    /* height: 4em; */
+    margin-bottom: 2em;
+}
+
+.glimpse-1_content h3 {
+    text-align: justify;
+    font-weight: 100;
+    margin-left: -3em;
+    font-family: 'Lovelace';
+    font-size: 2em;
+    
+}
+
+
+.glimpse-1_img img {
+    margin-right: -24em;
+    height: 50em;
+    width: 35em;
+}
+
+/* glimpse 2-------------------- */
+
+
+.glimpse-2 {
+    /* position: fixed; */
+    height: auto;
+    width: 100%;
+    align-items: center;
+    overflow-x: hidden;
+
+}
+
+
+.glimpse-2_content {
+    margin-top: 5em;
+    display: grid;
+    align-items: center;
+}
+
+
+.glimpse-2_content img {
+    /* margin-left: -20em; */
+    /* height: 4em; */
+    margin-bottom: 2em;
+}
+
+.glimpse-2_content h3 {
+    text-align: justify;
+    font-weight: 100;
+    /* margin-left: -3em; */
+    font-family: 'Lovelace';
+    font-size: 2em;
+    
+}
+
+
+.glimpse-2_img img {
+    margin-left: -24em;
+    height: 50em;
+    width: 35em;
+}
+
+/* glimpse3------------- */
+
+.glimpse-3 {
+    /* position: fixed; */
+    height: auto;
+    width: 100%;
+    align-items: center;
+    overflow-x: hidden;
+
+}
+
+.glimpse-3_content {
+    margin-top: 5em;
+    display: grid;
+    align-items: center;
+}
+
+
+.glimpse-3_content img {
+    margin-left: -20em;
+    height: 13em;
+    margin-bottom: 4em;
+}
+
+.glimpse-3_content h3 {
+    text-align: justify;
+    font-weight: 100;
+    margin-left: -3em;
+    font-family: 'Lovelace';
+    font-size: 2em;
+    
+}
+
+.glimpse-3_img img {
+    margin-right: -20em;
+    height: 52em;
+    width: 32em;
+}
+
+/* glimpse4------------- */
+
+
+
+
+.glimpse-4 {
+    /* position: fixed; */
+    height: auto;
+    width: 100%;
+    align-items: center;
+    overflow-x: hidden;
+
+}
+
+.glimpse-4_content {
+    margin-top: 5em;
+    display: grid;
+    align-items: center;
+}
+
+
+.glimpse-4_content img {
+    /* margin-left: -20em; */
+    /* height: 4em; */
+    margin-bottom: 2em;
+}
+
+.glimpse-4_content h3 {
+    text-align: justify;
+    font-weight: 100;
+    /* margin-left: -3em; */
+    font-family: 'Lovelace';
+    font-size: 2em;
+    
+}
+
+
+.glimpse-4_img img {
+    margin-left: -24em;
+    height: 52em;
+    width: 35em;
+}
+
+/* glimpse5---------- */
+
+.glimpse-5 {
+    /* position: fixed; */
+    height: auto;
+    width: 100%;
+    align-items: center;
+    overflow-x: hidden;
+
+}
+
+.glimpse-5_content {
+    margin-top: 5em;
+    display: grid;
+    align-items: center;
+}
+
+
+.glimpse-5_content img {
+    margin-left: -20em;
+    margin-bottom: 2em;
+    /* height: 4em; */
+}
+
+.glimpse-5_content h3 {
+    text-align: justify;
+    font-weight: 100;
+    margin-left: -3em;
+    font-family: 'Lovelace';
+    font-size: 2em;
+    
+}
+
+
+
+.glimpse-5_img img {
+    margin-right: -24em;
+    height: 50em;
+    width: 40em;
+}
+
+/* glimpse6--------- */
+
+
+.glimpse-6 {
+    /* position: fixed; */
+    height: auto;
+    width: 100%;
+    align-items: center;
+    overflow-x: hidden;
+
+}
+
+.glimpse-6_content {
+    margin-top: 5em;
+    display: grid;
+    align-items: center;
+}
+
+
+.glimpse-6_content img {
+    /* margin-left: -20em; */
+    /* height: 4em; */
+    margin-bottom: 2em;
+}
+
+.glimpse-6_content h3 {
+    text-align: justify;
+    font-weight: 100;
+    /* margin-left: -3em; */
+    font-family: 'Lovelace';
+    font-size: 2em;
+    
+}
+
+
+.glimpse-6_img img {
+    margin-left: -24em;
+    height: 50em;
+    width: 35em;
+}
+
+/* glimpse7---------- */
+
+.glimpse-7 {
+    /* position: fixed; */
+    height: auto;
+    width: 100%;
+    align-items: center;
+    overflow-x: hidden;
+
+}
+
+.glimpse-7_content {
+    margin-top: 5em;
+    display: grid;
+    align-items: center;
+}
+
+
+.glimpse-7_content img {
+    margin-left: -20em;
+    /* height: 4em; */
+    margin-bottom: 2em;
+}
+
+.glimpse-7_content h3 {
+    text-align: justify;
+    font-weight: 100;
+    margin-left: -3em;
+    font-family: 'Lovelace';
+    font-size: 2em;
+    
+}
+
+
+.glimpse-7_img img {
+    margin-right: -24em;
+    height: 50em;
+    width: 38em;
+}
+
+
+
+@font-face {
+    font-family: 'Nostalgic Memories';
+    src: local('Nostalgic Memories Italic 2'), local('Nostalgic-Memories-Italic-2'),
+        url('NostalgicMemories-Italic2.woff2') format('woff2'),
+        url('NostalgicMemories-Italic2.woff') format('woff'),
+        url('NostalgicMemories-Italic2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+
+
