@@ -4,9 +4,95 @@ body {
     box-sizing: border-box;
     width: 100%;
     overflow-x: hidden;
+ 
+}
+.hp1
+{
+    background: url("images/Home\ \(1\).svg");
+    background-repeat: no-repeat;
+    height:100vh;
+    width: 100%;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    z-index: 10000;
+}
+.hp1 img{
+    height:70vh;
+    width:70vw; 
+   margin-top:-80vh;
+   margin-left:5vw;
+}
+.para1{
+    font-size: 150px;
+    letter-spacing: 0.05em;
+    line-height:150px;
+  margin-top:10vh;
+    font-family: 'Lovelace';
+    margin-left:20vw;
+    max-width:800px;
+    text-align:center;
+}
+.footer
+{
+    font-size: 30px;
+    font-family: 'Lovelace';
+ 
+    margin-left:5vw;
+    letter-spacing: 0.05em;
+    display:flex;
+}
+.footer1
+{
+    max-width:200px;
+}
+.footer2
+{
+ 
+    margin-left:50vw;
 }
 
+.hp2
+{
+    background: url("images/About1.svg");
+    background-repeat: no-repeat;
+    height:100vh;
+    width: 100%;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    z-index: 10000;
+}
+.para2
+{
+    max-width:500px;
+    font-size: 35px;
+    font-family:'Lovelace';
+    font-weight:700;
+    margin-top:10vh;
+    margin-left:10vw;
+}  
+.p3
+{
+    font-size: 25px;
+    font-family:'Lovelace';
+    font-weight:lighter;
+}
+.foo
+{
+    max-width:40vw;
+    margin-top:10vh;
+    margin-left:10vw;
 
+}
+.foo button
+{
+    width:120px;
+    height:50px;
+    margin-left:2vw;
+    margin-top:2vw;
+    background-color: #EEECDE;
+}
 /* glimpse 1-------------------- */
 
 
