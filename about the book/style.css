@@ -170,18 +170,21 @@ body {
 /* glimpse_into----- */
 
 .glimpse_intro {
-    background-image: url("images/glimpse intro.jpg");
-    height: 60em;
-    max-width: auto;
-    width: 100%;
+    background-image: url("images/Contact.svg");
+    height: 100vh;
+    max-width:100%;
+    width:100%;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow-x: hidden;
+    
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.glimpse_intro img{
+    height:auto;
+ 
+}
 .glimpse_intro h1 {
     text-align: center;
     font-weight: 100;
@@ -202,7 +205,7 @@ body {
 
 
 .glimpse-1_content_img img {
-
+  
     max-width: 100%;
     height: auto;
 
@@ -435,6 +438,102 @@ body {
 
 
 @media only screen and (max-width: 500px) {
+    
+.hp1 {
+    background: url("images/Home-9.svg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    z-index: 10000;
+}
+
+.hp1 img {
+    height: 50vh;
+    width: 90vw;
+    margin-top: -10vh;
+margin-left:-10vw;
+   
+}
+
+.para1 {
+    font-size: 50px;
+    letter-spacing: 0.05em;
+    line-height: 50px;
+    margin-top: 2vh;
+    padding-right:0vw;
+    font-family: 'Lovelace';
+
+    max-width: 240px;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+}
+
+.footer {
+    font-size: 15px;
+    font-family: 'Lovelace';
+
+    margin-left: 1vw;
+    letter-spacing: 0.05em;
+    display: flex;
+}
+
+.footer1 {
+    max-width: 300px;
+}
+
+.footer2 {
+    max-width: 300px;
+    margin-left: 30vw;
+}
+
+.hp2 {
+    background: url("images/About-3.svg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    z-index: 10000;
+}
+
+.para2 {
+    max-width: 200px;
+    font-size: 15px;
+    font-family: 'Lovelace';
+    font-weight: 700;
+    margin-top: 10vh;
+    margin-left: 10vw;
+}
+
+.p3 {
+    font-size: 15px;
+    font-family: 'Lovelace';
+    font-weight: lighter;
+}
+
+.foo {
+    font-size:8px;
+    max-width: 80vw;
+    margin-top: 10vh;
+    margin-left: 10vw;
+
+}
+
+.foo button {
+   
+    width: 60px;
+    height: 30px;
+    margin-left: 2vw;
+    margin-top: 2vw;
+    background-color: #EEECDE;
+}
+
+
     .glimpse-1 {
         padding: 1em;
     }
@@ -657,15 +756,16 @@ body {
         padding: 1em;
 
     }
-
+/* 
     .auth_desc {
         display: grid;
         align-items: center;
 
-    }
+    } */
 
-
+/* 
     .auth_desc h3 {
+        max-width:300px;
         font-weight: 100;
         font-family: 'Lovelace';
         text-align: start;
@@ -677,7 +777,7 @@ body {
     .auth_desc_img img {
         height: 35em;
         width: 23em;
-    }
+    } */
 
     /* ----- */
 
@@ -709,8 +809,8 @@ body {
 
     .auth_desc {
         background-image: url("images/auth_desc.jpg");
-        height: auto;
-        background-repeat: no-repeat;
+        /* height: auto; */
+        background-repeat:repeat-y;
         padding: 1em;
         margin-top: 0em;
     }
@@ -722,6 +822,7 @@ body {
 
 
     .auth_desc h3 {
+        min-width:250px;
         font-weight: 100;
         font-family: 'Lovelace';
         text-align: justify;
@@ -732,8 +833,8 @@ body {
 
     .auth_desc_img img {
         height: 15em;
-        width: 13em;
-        padding-left: 2.5em;
+        width:70vw;
+        padding-left: 4.5em;
         
     }
 
