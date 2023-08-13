@@ -19,10 +19,10 @@ body {
 }
 
 .hp1 img {
-    height: 70vh;
-    width: 70vw;
+    height: 80vh;
+    width: 71vw;
     margin-top: -80vh;
-    margin-left: 5vw;
+    margin-left: 7vw;
 }
 
 .para1 {
@@ -35,9 +35,11 @@ body {
     max-width: 800px;
     text-align: center;
 }
-
+.para1 p{
+    padding-top:20vh;
+}
 .footer {
-    font-size: 30px;
+    font-size: 26px;
     font-family: 'Lovelace';
 
     margin-left: 5vw;
@@ -96,14 +98,23 @@ body {
 }
 
 /* book_description------------------ */
-
+.col-2
+{
+  
+}
+.row1
+{
+    display:flex;
+    flex-direction: row;
+    margin-top:2vh;
+}
 
 .book_desc {
     height: auto;
     background-repeat: no-repeat;
     align-items: center;
     overflow-x: hidden;
-
+    margin-left: -1vw;
 }
 
 
@@ -137,24 +148,36 @@ body {
 
 .auth_desc_content {
     margin-top: 6em;
+  
+}
+.row
+{
+    display:flex;
+    flex-direction: row;
 }
 
-
-.auth_desc h3 {
+.row h3 {
     font-weight: 100;
     font-family: 'Lovelace';
     text-align: start;
-    font-size: 2em;
+    font-size: 1.8em;
     padding-right: 3em;
+    max-width:60vw;
+    margin-top: 0em;
 }
-
-
-.auth_desc_img img {
+.image
+{
+    max-width:30vw;
+    margin-top: -36vh;
+}
+.image img{
     /* height: 35em;
     width: 23em; */
     /* height: auto; */
     /* width: 100%; */
-    height: 30em;
+    height:75vh;
+
+    width:30vw;;
 
 
 
@@ -448,6 +471,7 @@ body {
     overflow-x: hidden;
     overflow-y: hidden;
     z-index: 10000;
+   
 }
 
 .hp1 img {
@@ -471,7 +495,9 @@ margin-left:-10vw;
     align-items: center;
     align-self: center;
 }
-
+.para1 p{
+    padding-top:7vh;
+}
 .footer {
     font-size: 15px;
     font-family: 'Lovelace';
@@ -810,7 +836,7 @@ margin-left:-10vw;
     .auth_desc {
         background-image: url("images/auth_desc.jpg");
         /* height: auto; */
-        background-repeat:repeat-y;
+        background-repeat:;
         padding: 1em;
         margin-top: 0em;
     }
@@ -822,21 +848,27 @@ margin-left:-10vw;
 
 
     .auth_desc h3 {
-        min-width:250px;
+        min-width: 350px;
         font-weight: 100;
         font-family: 'Lovelace';
         text-align: justify;
         font-size: 1em;
-        padding: 0em;
+        margin-left: 15vw;
     }
 
-
-    .auth_desc_img img {
-        height: 15em;
-        width:70vw;
-        padding-left: 4.5em;
-        
+    .image
+    {
+        max-width: 400px;
+        margin-top: 1vh;
+        align-items: center;
+        margin-left: 29vw;
+  
     }
+    .image img{
+        height: 28vh;
+        width: 35vw;
+    }
+    
 
     .auth_desc_content {
         margin-top: 2em;
@@ -892,7 +924,7 @@ margin-left:-10vw;
     }
 
 
-    .auth_desc_img img {
+    .auth_desc_img {
         height: 20em;
     }
 
