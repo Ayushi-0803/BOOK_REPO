@@ -54,7 +54,7 @@ body {
 }
 
 .head3 {
-    font-family: 'Nostalgic Memories';
+    font-family: 'Lovelace';
     font-size: 90px;
     text-align: left;
 }
@@ -94,7 +94,7 @@ body {
 
 
 .abt_me_auth h1 {
-    font-family: 'Nostalgic Memories';
+    font-family: 'Lovelace';
     font-size: 60px;
     text-align: start;
 }
@@ -104,6 +104,7 @@ body {
     font-weight: 350;
     margin-top: 2em;
     /* font-family: 'Marcellus SC', serif; */
+    font-family: 'Lovelace';
 }
 
 .abt_me_pic {
@@ -133,13 +134,15 @@ body {
 
 .abt_book_cnt h3 {
     text-align: left;
-    font-weight: 300;
+    font-weight: lighter;
     font-size: 25px;
+    font-family: 'Lovelace';
+    
 
 }
 
 .abt_book_cnt h1 {
-    font-family: 'Nostalgic Memories';
+    font-family: 'Lovelace';
     font-size: 60px;
     text-align: left;
 
@@ -188,16 +191,13 @@ body {
 .video {
     position: relative;
     width: 100%;
+    max-width: auto;
     display: block;
     margin: auto;
     padding: 2vh;
 
 }
 
-.video iframe {
-    /* position:absolute; */
-
-}
 
 .YT_links {
     height: auto;
@@ -321,6 +321,13 @@ body {
 
 
 
+
+
+
+/* ---------------------------------------------------------------------------------new section */
+
+
+
 /* ----------------front page 1--------- */
 .frontpg-1 {
 
@@ -410,8 +417,6 @@ body {
     position: relative;
 
 }
-
-
 
 .s1_p1_hd h1 {
 
@@ -781,12 +786,12 @@ body {
     }
 
     .head3 {
-        font-family: 'Nostalgic Memories';
+        font-family: 'Lovelace';
         font-size: 60px;
     }
 
     .abt_me_auth h1 {
-        font-family: 'Nostalgic Memories';
+        font-family: 'lovelace';
         font-size: 50px;
         text-align: start;
     }
@@ -1013,6 +1018,10 @@ body {
 
 }
 
+iframe {
+    height: 200px;
+}
+
 }
 
 
@@ -1105,12 +1114,3 @@ body {
     }
 }
 
-@font-face {
-    font-family: 'Nostalgic Memories';
-    src: local('Nostalgic Memories Italic 2'), local('Nostalgic-Memories-Italic-2'),
-        url('NostalgicMemories-Italic2.woff2') format('woff2'),
-        url('NostalgicMemories-Italic2.woff') format('woff'),
-        url('NostalgicMemories-Italic2.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-}

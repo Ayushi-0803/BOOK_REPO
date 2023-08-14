@@ -447,15 +447,7 @@ body {
 
 
 
-@font-face {
-    font-family: 'Nostalgic Memories';
-    src: local('Nostalgic Memories Italic 2'), local('Nostalgic-Memories-Italic-2'),
-        url('NostalgicMemories-Italic2.woff2') format('woff2'),
-        url('NostalgicMemories-Italic2.woff') format('woff'),
-        url('NostalgicMemories-Italic2.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-}
+
 
 /* media---- */
 
