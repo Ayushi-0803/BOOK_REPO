@@ -322,30 +322,27 @@ body {
 
 
 /* ----------------front page 1--------- */
-.frontpg-1
-{
-   
+.frontpg-1 {
+
 
     width: 100%;
     align-items: center;
     overflow-x: hidden;
- 
+
 }
 
-.photo
-{
- margin-top:-10vh;
-    margin-left:10vw;
+.photo {
+    margin-top: -10vh;
+    margin-left: 10vw;
 }
 
 
 
-.hp1
-{
-    font-family:" Hatton Medium";
+.hp1 {
+    font-family: " Hatton Medium";
     font-size: 5em;
-    margin-top:10vh;
-    margin-left:2vw;
+    margin-top: 10vh;
+    margin-left: 2vw;
 }
 
 /* ----------------my story page 1--------- */
@@ -414,12 +411,7 @@ body {
 
 }
 
-.s1_p1 img {
 
-    height: 6em;
-    justify-self: flex-end;
-
-}
 
 .s1_p1_hd h1 {
 
@@ -427,7 +419,7 @@ body {
     font-family: 'Marcellus SC', serif;
     font-size: 100px;
     text-align: left;
-    margin-left:-0.2em;
+    margin-left: -0.2em;
 }
 
 .s1_p1_hd img {
@@ -435,7 +427,7 @@ body {
     margin-left: 2em;
     height: 0.3em;
     margin-bottom: 0em;
-} 
+}
 
 #s1_p1_hd_p2 {
     margin-top: -1.2em;
@@ -450,6 +442,7 @@ body {
 }
 
 .s1_p1_fl img {
+    margin-top: 12em;
     height: 15em;
     margin-left: -6em;
 
@@ -460,12 +453,12 @@ body {
 }
 
 .s1_p1_cnt_p1 img {
-    height: 4em;
+    height: 3em;
     justify-self: flex-end;
 }
 
 #p2 {
-    height: 1.5em;
+    height: 1.2em;
     justify-self: flex-start;
     margin-left: -2em;
 }
@@ -505,9 +498,18 @@ body {
 }
 
 .s1_p2_rd img {
-    /* margin-top: 5em; */
+    /* display: none; */
+    margin-top: 5em;
     height: 5em;
     justify-self: flex-end;
+
+}
+
+.s1_p1 img {
+
+    height: 5em;
+    justify-self: flex-end;
+    /* justify-self: flex-start; */
 
 }
 
@@ -522,7 +524,7 @@ body {
 
 #p3 {
     height: 15em;
-    margin-left: -6em;
+    margin-left: -11em;
     justify-self: flex-start;
     margin-bottom: 5em;
     animation-name: cloud2;
@@ -530,6 +532,8 @@ body {
     animation-duration: 4s;
     position: relative;
 }
+
+
 
 /* ----------------my story page 3-------- */
 
@@ -581,39 +585,40 @@ body {
 }
 
 
-#p6   {
+#p6 {
     height: 1em;
     margin-bottom: 0.5em;
-   
+
 }
 
 
 
-.finalpg{
+.finalpg {
     background-size: cover;
-     height:auto;
+    height: auto;
     align-items: center;
     overflow-x: hidden;
-    overflow-y:hidden;
+    overflow-y: hidden;
     z-index: 1000;
- }
- .ele0{
-    margin-top:-20vh;
- }
- .ele0 h1
- {
-    max-width:100px;
-    font-family: 'Noto Serif Display', serif;
-    font-size:80px;
-    margin-left:2vw;
-    line-height:10vh;
- }
-.ele2
-{
-    margin-top:-95vh;
 }
-.bl1
-{
+
+.ele0 {
+    margin-top: -20vh;
+}
+
+.ele0 h1 {
+    max-width: 100px;
+    font-family: 'Noto Serif Display', serif;
+    font-size: 80px;
+    margin-left: 2vw;
+    line-height: 10vh;
+}
+
+.ele2 {
+    margin-top: -95vh;
+}
+
+.bl1 {
     display: block;
     font-size: 16px;
     font-weight: bold;
@@ -622,30 +627,30 @@ body {
     margin-left: 5vw;
 
 }
-.bl2
-{
+
+.bl2 {
     display: block;
     font-size: 16px;
     font-weight: bold;
     max-width: 170px;
-    margin-left:10vw;
+    margin-left: 10vw;
     margin-top: -80vh;
-    
-}
-.int-ele1
-{
-    display:flex;
 
-    padding-left:50vh;
 }
-.int-ele2
-{
-    display:flex;
-    margin-top:1vh;
-    padding-left:50vh;
+
+.int-ele1 {
+    display: flex;
+
+    padding-left: 50vh;
 }
-.bl3
-{
+
+.int-ele2 {
+    display: flex;
+    margin-top: 1vh;
+    padding-left: 50vh;
+}
+
+.bl3 {
     display: block;
     font-size: 16px;
 
@@ -654,15 +659,16 @@ body {
     margin-left: 5vw;
 
 }
-.bl4
-{
+
+.bl4 {
     display: block;
     font-size: 16px;
-margin-left:10vw;
+    margin-left: 10vw;
     max-width: 280px;
     margin-top: -65vh;
-    
+
 }
+
 @keyframes example {
     0% {
         opacity: 0;
@@ -802,14 +808,14 @@ margin-left:10vw;
 
     .story_cnt h3 {
         font-size: 18.9999px;
-    
+
         margin-top: 0em;
-    
+
     }
 
     .story_2_cnt h3 {
         font-size: 18.9999px;
-    
+
         margin-top: 0em;
     }
 
@@ -827,12 +833,13 @@ margin-left:10vw;
         margin-left: 1em;
         height: 0.25em;
         /* margin-bottom: 0em; */
-    } 
+    }
 
     .s1_p1_fl img {
+        margin-top: -9em;
         height: 9em;
-        margin-left: -1em;
-    
+        margin-left: 0em;
+
     }
 
     #p2 {
@@ -841,39 +848,41 @@ margin-left:10vw;
         margin-left: -0.92em;
     }
 
-    .finalpg{
+    .finalpg {
         background: url(./svgs/Page\ 4-10.svg);
         background-size: cover;
         height: 90vh;
         align-items: center;
         overflow-x: hidden;
         z-index: 1000;
-           }
-     .ele0{
+    }
+
+    .ele0 {
         margin-top: -50vh;
-     }
-     .ele0 h1
-     {
+    }
+
+    .ele0 h1 {
         max-width: 280px;
         font-family: 'Noto Serif Display', serif;
         font-size: 30px;
         margin-left: 2vw;
         line-height: 10vh;
-     }
-    .ele2
-    {
-        margin-top:-95vh;
     }
-    .bl1
-    {    display: block;
+
+    .ele2 {
+        margin-top: -95vh;
+    }
+
+    .bl1 {
+        display: block;
         font-size: 11px;
         font-weight: bold;
         max-width: 170px;
         margin-top: -69vh;
         margin-left: -10vw;
     }
-    .bl2
-    {
+
+    .bl2 {
         display: block;
         font-size: 11px;
         font-weight: bold;
@@ -881,39 +890,128 @@ margin-left:10vw;
         margin-left: 52vw;
         margin-top: -7vh;
     }
-    .int-ele1
-    {
+
+    .int-ele1 {
         display: flex;
         flex-direction: column;
         padding-left: 50vh;
         margin-left: -95vw;
         margin-top: -2vh;
     }
-    .int-ele2
-    {
+
+    .int-ele2 {
         display: flex;
         margin-top: 17vh;
         flex-direction: column;
         padding-left: 50vh;
         margin-left: -102vw;
     }
-    .bl3
-    {    display: block;
+
+    .bl3 {
+        display: block;
         font-size: 11px;
         max-width: 170px;
         margin-top: -75vh;
         margin-left: -4vw;
-    
+
     }
-    .bl4
-    {
+
+    .bl4 {
         display: block;
         font-size: 11px;
         margin-left: 57vw;
         max-width: 170px;
         margin-top: -17vh;
-        
+
     }
+
+
+    /* ----------------my story page 2--------- */
+
+
+    .story_2_cnt h3 {
+        text-align: justify;
+        font-weight: 400;
+        font-size: 18.9999px;
+        margin-top: 3em;
+    }
+
+    .s1_p2_rd {
+        display: grid;
+        margin-top: 0em;
+    }
+
+
+    .s1_p2_rd img {
+        /* display: none; */
+        margin-top: 27em;
+        height: 4em;
+        justify-self: flex-start;
+
+    }
+
+    .s1_p1 img {
+        margin-top: 0em;
+        height: 5em;
+        justify-self: flex-start;
+
+    }
+
+    /* ----------------my story page 3-------- */
+
+.story_p3 {
+
+    height: auto;
+    background: url(./svgs/story_page_3.svg);
+    background-size: cover;
+    width: 100%;
+    align-items: center;
+    overflow-x: hidden;
+
+
+}
+
+.s1_p3_bk { 
+    margin: 0em; 
+    display: grid;
+    animation-name: example;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    position: relative;
+
+
+}
+
+.s1_p3_bk img {
+    margin-right: 0em;
+    height: 7em;
+    margin-top: 14em;
+    justify-self: flex-start;
+    margin-left:0em;
+
+
+}
+
+#p4 {  
+    margin-top: 20em;
+    justify-self: flex-start;
+    height: 9em;
+    margin-left: 0em;
+}
+
+#f_quote {
+    margin-top: 5em;
+    text-align: end;
+    font-weight: 800;
+    font-style: italic;
+}
+
+
+#p6 {
+    height: 1em;
+    margin-bottom: 0.5em;
+
+}
 
 }
 
