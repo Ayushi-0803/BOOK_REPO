@@ -15,7 +15,7 @@ body {
 /* main page-------------------------------------- */
 .main_p {
 
-    height: 95vh;
+    height: 85vh;
     background: url(./svgs/Home-6.svg);
     background-size: cover;
     width: 100%;
@@ -28,9 +28,10 @@ body {
 .main_p_pic img {
 
     height: 32em;
-
-    padding-bottom: 10vh;
-    padding-top: 15vh;
+    padding-bottom: 9vh;
+    padding-top: 6vh;
+    margin-top: 3em;
+    margin-left: 7em;
 }
 
 .placeholder2 {
@@ -46,6 +47,8 @@ body {
     font-family: 'Marcellus SC', serif;
     font-size: 25px;
     text-align: left;
+    margin-top: -1em;
+
 }
 
 .pl-3 {
@@ -97,6 +100,7 @@ body {
     font-family: 'Lovelace';
     font-size: 60px;
     text-align: start;
+    
 }
 
 .abt_me_auth h3 {
@@ -104,7 +108,7 @@ body {
     font-weight: 350;
     margin-top: 2em;
     /* font-family: 'Marcellus SC', serif; */
-    font-family: 'Lovelace';
+    font-family: Alice;
 }
 
 .abt_me_pic {
@@ -114,8 +118,12 @@ body {
 
 .abt_me_pic img {
 
-    height: 40em;
-    width: 28em;
+    height: 35em;
+    width: 26em;
+}
+
+#abf {
+    height: 3em;
 }
 
 /* -------------------------------------------about book-- */
@@ -133,18 +141,18 @@ body {
 }
 
 .abt_book_cnt h3 {
-    text-align: left;
+    text-align: justify;
     font-weight: lighter;
     font-size: 25px;
     font-family: 'Lovelace';
-    
+
 
 }
 
 .abt_book_cnt h1 {
     font-family: 'Lovelace';
     font-size: 60px;
-    text-align: left;
+    text-align: center;
 
 }
 
@@ -155,8 +163,8 @@ body {
 
 .abt_book_pic img {
 
-    height: 32em;
-    width: 20em;
+    height: 25em;
+    width: 17em;
     margin-top: 10em;
     margin-left: -10vw;
 
@@ -182,10 +190,11 @@ body {
 }
 
 .video-head {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Lovelace';
     font-size: 70px;
     text-align: center;
     margin-top: 3vh;
+    font-weight: 550;
 }
 
 .video {
@@ -210,7 +219,7 @@ body {
 }
 
 .header-links {
-    font-family: 'Marcellus SC', serif;
+    font-family: 'Lovelace';
     font-size: 70px;
 }
 
@@ -371,6 +380,7 @@ body {
     text-align: justify;
     font-weight: 400;
     font-size: 23.9999px;
+    font-family: 'DM Sans';
 
     margin-top: 2em;
 
@@ -421,7 +431,7 @@ body {
 .s1_p1_hd h1 {
 
 
-    font-family: 'Marcellus SC', serif;
+    font-family: 'Maharlika';
     font-size: 100px;
     text-align: left;
     margin-left: -0.2em;
@@ -435,7 +445,10 @@ body {
 }
 
 #s1_p1_hd_p2 {
-    margin-top: -1.2em;
+    margin-top: -1.5em;  
+}
+#s1_p1_hd_p3 {
+    margin-top: -0.2em;  
 }
 
 #s1_hd_2 {
@@ -488,6 +501,7 @@ body {
     font-size: 23.9999px;
 
     margin-top: 3em;
+    font-family: 'DM Sans';
 }
 
 .s1_p2_rd {
@@ -504,9 +518,10 @@ body {
 
 .s1_p2_rd img {
     /* display: none; */
-    margin-top: 5em;
+    margin-top: 6.5em;
     height: 5em;
     justify-self: flex-end;
+    /* margin-right: -1em; */
 
 }
 
@@ -525,6 +540,8 @@ body {
 .s1_p2_cnt_p1 img {
     height: 5em;
     justify-self: center;
+    margin-right: -3em;
+    margin-top: -1.8em;
 }
 
 #p3 {
@@ -813,7 +830,7 @@ body {
 
     .story_cnt h3 {
         font-size: 18.9999px;
-
+        padding: 0em 3em 0em 3em;
         margin-top: 0em;
 
     }
@@ -843,14 +860,14 @@ body {
     .s1_p1_fl img {
         margin-top: -9em;
         height: 9em;
-        margin-left: 0em;
+        margin-left: 14em;
 
     }
 
     #p2 {
         height: 0.8em;
         justify-self: flex-start;
-        margin-left: -0.92em;
+        margin-left: 2.3em;
     }
 
     .finalpg {
@@ -944,13 +961,17 @@ body {
     .s1_p2_rd {
         display: grid;
         margin-top: 0em;
+
     }
+
+    
 
 
     .s1_p2_rd img {
-        /* display: none; */
-        margin-top: 27em;
+        display: none;
+        /* margin-top: 58em; */
         height: 4em;
+        margin-left: 4.1em;
         justify-self: flex-start;
 
     }
@@ -964,63 +985,63 @@ body {
 
     /* ----------------my story page 3-------- */
 
-.story_p3 {
+    .story_p3 {
 
-    height: auto;
-    background: url(./svgs/story_page_3.svg);
-    background-size: cover;
-    width: 100%;
-    align-items: center;
-    overflow-x: hidden;
-
-
-}
-
-.s1_p3_bk { 
-    margin: 0em; 
-    display: grid;
-    animation-name: example;
-    animation-timing-function: linear;
-    animation-duration: 4s;
-    position: relative;
+        height: auto;
+        background: url(./svgs/story_page_3.svg);
+        background-size: cover;
+        width: 100%;
+        align-items: center;
+        overflow-x: hidden;
 
 
-}
+    }
 
-.s1_p3_bk img {
-    margin-right: 0em;
-    height: 7em;
-    margin-top: 14em;
-    justify-self: flex-start;
-    margin-left:0em;
-
-
-}
-
-#p4 {  
-    margin-top: 20em;
-    justify-self: flex-start;
-    height: 9em;
-    margin-left: 0em;
-}
-
-#f_quote {
-    margin-top: 5em;
-    text-align: end;
-    font-weight: 800;
-    font-style: italic;
-}
+    .s1_p3_bk {
+        margin: 0em;
+        display: grid;
+        animation-name: example;
+        animation-timing-function: linear;
+        animation-duration: 4s;
+        position: relative;
 
 
-#p6 {
-    height: 1em;
-    margin-bottom: 0.5em;
+    }
 
-}
+    .s1_p3_bk img {
+        margin-right: 0em;
+        height: 7em;
+        margin-top: 14em;
+        justify-self: flex-start;
+        margin-left: 0em;
 
-iframe {
-    height: 200px;
-}
+
+    }
+
+    #p4 {
+        margin-top: 20em;
+        justify-self: flex-start;
+        height: 9em;
+        margin-left: 0em;
+    }
+
+    #f_quote {
+        margin-top: 5em;
+        text-align: end;
+        font-weight: 800;
+        font-style: italic;
+    }
+
+
+    #p6 {
+        height: 1em;
+        margin-bottom: 0.5em;
+
+    }
+
+    iframe {
+        height: 200px;
+    }
 
 }
 
@@ -1041,9 +1062,23 @@ iframe {
 
     .main_p_pic img {
         margin-top: 2em;
-        height: 30em;
+        height: 22em;
         width: 23em;
+        margin-left: 0em;
+        
     }
+    .main_p {
+
+        height: auto;
+        background: url(./svgs/Home-6.svg);
+        background-size: cover;
+        width: 100%;
+        align-items: center;
+        overflow-x: hidden;
+        z-index: 1000;
+    
+    }
+
 
     .book_mob {
         display: block;
@@ -1113,4 +1148,3 @@ iframe {
         display: none;
     }
 }
-

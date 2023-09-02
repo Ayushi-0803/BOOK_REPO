@@ -301,7 +301,7 @@ body {
 .glimpse-3_content h3 {
     font-weight: 100;
     font-family: 'Lovelace';
-    text-align: start;
+    text-align: justify;
     font-size: 2em
 }
 
