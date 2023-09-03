@@ -95,17 +95,6 @@ body {
     margin-left: 2vw;
     margin-top: 2vw;
     background-color: #EEECDE;
-    color: #156669;
-    border-color: #156669;
-    border-radius: 0.3em;
-    border-width: 0.1em;
-    text-decoration: underline;
-
-}
-
-.foo :hover {
-    border-color: #8b3dff;
-    border-width: 0.2em;
 }
 
 /* book_description------------------ */
@@ -180,28 +169,21 @@ body {
 {
     max-width:30vw;
     margin-top: -36vh;
-    background-image: url("images/auth_desc_auth.jpg");
-    background-size: cover;
-    height: auto;
-    width: 25em;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-
 }
 .image img{
     /* height: 35em;
     width: 23em; */
     /* height: auto; */
     /* width: 100%; */
-    height: 15em;
-    
-    
+    height:65vh;
+
+    width:25vw;;
+
+
+
+
+
 }
-
-
-
-
 
 
 
@@ -233,13 +215,6 @@ body {
     font-size: 9em;
 }
 
-/* ----------bookall-- */
-
-.book_story {
-  
-    padding: 0em 5em 0em 5em;
-}
-
 
 
 
@@ -256,7 +231,6 @@ body {
   
     max-width: 100%;
     height: auto;
-    float: left;
 
 }
 
@@ -264,8 +238,7 @@ body {
     font-weight: 100;
     font-family: 'Lovelace';
     text-align: start;
-    font-size: 2em;
-    text
+    font-size: 2em
 }
 
 
@@ -893,11 +866,6 @@ margin-left:-10vw;
     .auth_desc_content {
         margin-top: 2em;
     }
-
-    .book_story {
-  
-        padding: 0em;
-    }
     
 
 
@@ -962,11 +930,6 @@ margin-left:-10vw;
         height:30vh;
         width:25vw;;
     
-    }
-
-    .book_story {
-  
-        padding: 0em;
     }
 
 

@@ -130,7 +130,7 @@ body {
 
 
 .abt_book {
-    height: auto;
+    height: 100vh;
     background: url(./svgs/Services.svg);
     background-size: cover;
     width: 100%;
@@ -178,7 +178,7 @@ body {
 
 .book_tra {
 
-    height: 125vh;
+    height: 120vh;
 
     background: url(./svgs/Book\ trailer-new.com.svg);
     background-size: cover;
@@ -200,6 +200,7 @@ body {
 .video {
     position: relative;
     width: 100%;
+
     max-width: auto;
     display: block;
     margin: auto;
@@ -210,14 +211,131 @@ body {
 
 .YT_links {
     height: auto;
-    background: url(./svgs/FAQs\ \(1\).svg);
+  
     background-size: cover;
     width: 100%;
     align-items: center;
     overflow-x: hidden;
-
+    box-sizing: border-box;
 }
 
+
+/* carousel starts*/
+.slideshow-container {
+    max-width: 600px;
+    position: relative;
+  margin: auto;
+   
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons*/
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color:black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+
+  .next {
+    right:-2em;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev{
+    left:-2em;
+  }
+
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+ 
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+
+   .fade {
+    animation-name: fade;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+  } 
+  
+  @keyframes fade {
+    from {opacity: 0.4} 
+    to {opacity: 1}
+  }
+.iframes1
+{
+    width:600px;
+    height:300px;
+    vertical-align: middle;
+} 
+image
+{
+    width:400px;
+    height:200px;
+}
+@media only screen and (max-width: 500px) {
+    .prev, .next,.text {font-size: 18px}
+    .slideshow-container {
+        max-width: 300px;
+        position: relative;
+      margin: auto;
+       
+      }
+.iframes1
+{
+    width:300px;
+    height:300px;
+
+} 
+  }
+/*carousel ends*/
 .header-links {
     font-family: 'Lovelace';
     font-size: 70px;
@@ -328,9 +446,34 @@ body {
     margin-right: 2em;
 } */
 
+.home-contact
+{
+    background: url(./svgs/Contact\ \(1\).svg);
+   
+    height: 105vh;
+    background-size: cover;
+    /* width: 100%; */
+    align-items: center;
+    overflow-x: hidden;
+    z-index: 1000; 
+    transform:scale(0.95);
+ 
+}
 
-
-
+@media only screen and (max-width: 500px) {
+    .home-contact
+    {
+        background: url(./svgs/Contact\ \(6\).svg);
+        width: 100%;
+        height:80vh;
+        align-items: center;
+        overflow-x: hidden;
+        z-index: 1000;
+        background-repeat:no-repeat ;
+      
+        margin-left:2em;
+    }
+}
 
 
 /* ---------------------------------------------------------------------------------new section */
@@ -726,25 +869,85 @@ body {
     position: relative;
 }
 
+.contact
+{
+    background:url(./svgs/Page\ 6.svg);
+height:120vh;
+width:100vw;
 
+    background-size: cover;
+    /* width: 100%; */
+    align-items: center;
+    overflow-x: hidden;
+    z-index: 1000;
+    transform: scale(0.8);
 
+}
+.con_head
+{
+    max-width:200px;
+    font-size:40px;
+    letter-spacing:0.1em;
+    font-family:'Lovelace';
+}
+.con_head p
+{
+   
+    font-size:50px;
+    font-weight:500;
+    letter-spacing:0.1em;
+    font-family:'Lovelace';
+}
+.con_head1
+{
+    margin-top:5px;
+    max-width:400px;
+    font-size:40px;
+    letter-spacing:0.1em;
+    font-family:'Lovelace';
+}
+.con_head1 p
+{
+   
+    font-size:30px;
+    font-weight:400;
+    letter-spacing:0.1em;
+    font-family:'Lovelace';
+}
+.con_head2
+{
+    max-width:200px;
+    font-size:30px;
+    letter-spacing:0.1em;
+    font-family:'Lovelace';
+}
+.con_head2 p
+{
+   
+    font-size:30px;
+    font-weight:400;
+    color:lightskyblue;
+    font-family:'Lovelace';
+}
 
 @media screen and (min-width:1000px) {
     .book_tra {
 
-        height: auto;
+        height: 120vh;
 
         background: url(./svgs/book_new_trailer.svg);
         background-size: cover;
-
+overflow-y:hidden;
         align-items: center;
         overflow-x: hidden;
-        z-index: 1000;
+        z-index: 1000;e
 
     }
+ 
+
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
     .video {
         /* position: relative; */
         display: block;
@@ -797,7 +1000,7 @@ body {
     }
 
     .book_tra {
-        height: auto;
+        height: 80vh;
         background: url(./svgs/book-mobile.com\ \(500\ ×\ 667px\)\ \(1\).svg);
         z-index: 100;
     }
@@ -877,6 +1080,8 @@ body {
         align-items: center;
         overflow-x: hidden;
         z-index: 1000;
+        transform: scale(0.85);
+        margin-left: 5vw;
     }
 
     .ele0 {
@@ -899,25 +1104,59 @@ body {
         display: block;
         font-size: 11px;
         font-weight: bold;
-        max-width: 170px;
-        margin-top: -69vh;
-        margin-left: -10vw;
+        max-width: 166px;
+        margin-top: -33rem;
     }
 
     .bl2 {
         display: block;
         font-size: 11px;
         font-weight: bold;
-        max-width: 170px;
-        margin-left: 52vw;
-        margin-top: -7vh;
+        max-width: 198px;
+        margin-left: 14rem;
+        margin-top: -8vh;
     }
 
     .int-ele1 {
         display: flex;
         flex-direction: column;
         padding-left: 50vh;
-        margin-left: -95vw;
+        margin-left: -26rem;
+        margin-top: -2vh;
+    
+    }
+
+    .int-ele2 {
+        display: flex;
+        margin-top: 17vh;
+        flex-direction: column;
+        padding-left: 47vh;
+        margin-left: -89vw;
+    }
+
+    .bl3 {
+        display: block;
+        font-size: 11px;
+        max-width: 170px;
+        margin-top: -36rem;
+        margin-left: -2rem;
+
+    }
+
+    .bl4 {
+        display: block;
+        font-size: 11px;
+        margin-left: 46vw;
+        max-width: 170px;
+        margin-top: -9rem;
+    }
+    }
+
+    .int-ele1 {
+        display: flex;
+        flex-direction: column;
+        padding-left: 50vh;
+        margin-left: -74vw;
         margin-top: -2vh;
     }
 
@@ -926,15 +1165,14 @@ body {
         margin-top: 17vh;
         flex-direction: column;
         padding-left: 50vh;
-        margin-left: -102vw;
+        margin-left: -90vw;
     }
 
     .bl3 {
         display: block;
         font-size: 11px;
         max-width: 170px;
-        margin-top: -75vh;
-        margin-left: -4vw;
+        margin-top: -93vh;
 
     }
 
@@ -943,7 +1181,7 @@ body {
         font-size: 11px;
         margin-left: 57vw;
         max-width: 170px;
-        margin-top: -17vh;
+        margin-top: -22vh;
 
     }
 
@@ -1041,9 +1279,15 @@ body {
 
     iframe {
         height: 200px;
+        width:400px;
+    }
+    .iframes
+    {
+        height:400px;
+        width:700px;
     }
 
-}
+
 
 
 /* ------------------------for abt_book-- */
@@ -1134,9 +1378,88 @@ body {
 
 
     }
+    .contact
+    {
+        background:url(./svgs/contact_tab.svg);
+    height:120vh;
+    width:120vw;
+    margin-left:-50px;
+        background-size: cover;
+        /* width: 100%; */
+        align-items: center;
+        overflow-x: hidden;
+        z-index: 1000;
+     margin-left:-25vw;
+     margin-top:-20vh;
+    
+    }
+    .con_head
+    {
+        max-width:200px;
+        font-size:40px;
+        letter-spacing:0.1em;
+        font-family:'Lovelace';
+        margin-left:20vw;
+    }
+    .con_head p
+    {
+       
+        font-size:50px;
+        font-weight:500;
+        letter-spacing:0.1em;
+        font-family:'Lovelace';
+    }
+    .con_head1
+    {
+        margin-top:5px;
+        max-width:400px;
+        font-size:40px;
+        letter-spacing:0.1em;
+        font-family:'Lovelace';
+        margin-left:20vw;
 
+    }
+    .con_head1 p
+    {
+       
+        font-size:30px;
+        font-weight:400;
+        letter-spacing:0.1em;
+        font-family:'Lovelace';
+    }
+    .con_head2
+    {
+        max-width:200px;
+        font-size:30px;
+        letter-spacing:0.1em;
+        font-family:'Lovelace';
+        margin-left:20vw;
+    }
+    .con_head2 p
+    {
+       
+        font-size:30px;
+        font-weight:400;
+        color:lightskyblue;
+        font-family:'Lovelace';
+    }
 
-
+}
+@media only screen and(min-width: 700px) and (max-width:900px) {
+    .contact
+    {
+        background:url(./svgs/tabcontact.svg);
+    height:120vh;
+    width:120vw;
+    
+        background-size: cover;
+        /* width: 100%; */
+        align-items: center;
+        overflow-x: hidden;
+        z-index: 1000;
+        transform: scale(0.8);
+    
+    }
 }
 
 @media (min-width: 767px) {
@@ -1147,4 +1470,6 @@ body {
     .book_mob {
         display: none;
     }
+
 }
+
