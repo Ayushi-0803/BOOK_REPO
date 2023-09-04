@@ -100,7 +100,7 @@ body {
     font-family: 'Lovelace';
     font-size: 60px;
     text-align: start;
-    
+
 }
 
 .abt_me_auth h3 {
@@ -211,7 +211,7 @@ body {
 
 .YT_links {
     height: auto;
-  
+
     background-size: cover;
     width: 100%;
     align-items: center;
@@ -224,46 +224,49 @@ body {
 .slideshow-container {
     max-width: 600px;
     position: relative;
-  margin: auto;
-   
-  }
-  
-  /* Hide the images by default */
-  .mySlides {
+    margin: auto;
+
+}
+
+/* Hide the images by default */
+.mySlides {
     display: none;
-  }
-  
-  /* Next & previous buttons*/
-  .prev, .next {
+}
+
+/* Next & previous buttons*/
+.prev,
+.next {
     cursor: pointer;
     position: absolute;
     top: 50%;
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color:black;
+    color: black;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
-  }
-  
+}
 
-  .next {
-    right:-2em;
+
+.next {
+    right: -2em;
     border-radius: 3px 0 0 3px;
-  }
-  .prev{
-    left:-2em;
-  }
+}
 
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
-  
+.prev {
+    left: -2em;
+}
 
-  .text {
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.text {
     color: #f2f2f2;
     font-size: 15px;
     padding: 8px 12px;
@@ -271,19 +274,19 @@ body {
     bottom: 8px;
     width: 100%;
     text-align: center;
-  }
-  
- 
-  .numbertext {
+}
+
+
+.numbertext {
     color: #f2f2f2;
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
     top: 0;
-  }
-  
+}
 
-  .dot {
+
+.dot {
     cursor: pointer;
     height: 15px;
     width: 15px;
@@ -292,49 +295,63 @@ body {
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
-  }
-  
-  .active, .dot:hover {
-    background-color: #717171;
-  }
-  
+}
 
-   .fade {
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+
+.fade {
     animation-name: fade;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-  } 
-  
-  @keyframes fade {
-    from {opacity: 0.4} 
-    to {opacity: 1}
-  }
-.iframes1
-{
-    width:600px;
-    height:300px;
-    vertical-align: middle;
-} 
-image
-{
-    width:400px;
-    height:200px;
 }
+
+@keyframes fade {
+    from {
+        opacity: 0.4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.iframes1 {
+    width: 600px;
+    height: 300px;
+    vertical-align: middle;
+}
+
+image {
+    width: 400px;
+    height: 200px;
+}
+
 @media only screen and (max-width: 500px) {
-    .prev, .next,.text {font-size: 18px}
+
+    .prev,
+    .next,
+    .text {
+        font-size: 18px
+    }
+
     .slideshow-container {
         max-width: 300px;
         position: relative;
-      margin: auto;
-       
-      }
-.iframes1
-{
-    width:300px;
-    height:300px;
+        margin: auto;
 
-} 
-  }
+    }
+
+    .iframes1 {
+        width: 300px;
+        height: 300px;
+
+    }
+}
+
 /*carousel ends*/
 .header-links {
     font-family: 'Lovelace';
@@ -446,32 +463,30 @@ image
     margin-right: 2em;
 } */
 
-.home-contact
-{
+.home-contact {
     background: url(./svgs/Contact\ \(1\).svg);
-   
+
     height: 105vh;
     background-size: cover;
     /* width: 100%; */
     align-items: center;
     overflow-x: hidden;
-    z-index: 1000; 
-    transform:scale(0.95);
- 
+    z-index: 1000;
+    transform: scale(0.95);
+
 }
 
 @media only screen and (max-width: 500px) {
-    .home-contact
-    {
+    .home-contact {
         background: url(./svgs/Contact\ \(6\).svg);
         width: 100%;
-        height:80vh;
+        height: 80vh;
         align-items: center;
         overflow-x: hidden;
         z-index: 1000;
-        background-repeat:no-repeat ;
-      
-        margin-left:2em;
+        background-repeat: no-repeat;
+
+        margin-left: 2em;
     }
 }
 
@@ -588,10 +603,11 @@ image
 }
 
 #s1_p1_hd_p2 {
-    margin-top: -1.5em;  
+    margin-top: -1.5em;
 }
+
 #s1_p1_hd_p3 {
-    margin-top: -0.2em;  
+    margin-top: -0.2em;
 }
 
 #s1_hd_2 {
@@ -697,7 +713,6 @@ image
     animation-duration: 4s;
     position: relative;
 }
-
 
 
 /* ----------------my story page 3-------- */
@@ -869,11 +884,10 @@ image
     position: relative;
 }
 
-.contact
-{
-    background:url(./svgs/Page\ 6.svg);
-height:120vh;
-width:100vw;
+.contact {
+    background: url(./svgs/Page\ 6.svg);
+    height: 120vh;
+    width: 100vw;
 
     background-size: cover;
     /* width: 100%; */
@@ -883,71 +897,71 @@ width:100vw;
     transform: scale(0.8);
 
 }
-.con_head
-{
-    max-width:200px;
-    font-size:40px;
-    letter-spacing:0.1em;
-    font-family:'Lovelace';
+
+.con_head {
+    max-width: 200px;
+    font-size: 40px;
+    letter-spacing: 0.1em;
+    font-family: 'Lovelace';
 }
-.con_head p
-{
-   
-    font-size:50px;
-    font-weight:500;
-    letter-spacing:0.1em;
-    font-family:'Lovelace';
+
+.con_head p {
+
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    font-family: 'Lovelace';
 }
-.con_head1
-{
-    margin-top:5px;
-    max-width:400px;
-    font-size:40px;
-    letter-spacing:0.1em;
-    font-family:'Lovelace';
+
+.con_head1 {
+    margin-top: 5px;
+    max-width: 400px;
+    font-size: 40px;
+    letter-spacing: 0.1em;
+    font-family: 'Lovelace';
 }
-.con_head1 p
-{
-   
-    font-size:30px;
-    font-weight:400;
-    letter-spacing:0.1em;
-    font-family:'Lovelace';
+
+.con_head1 p {
+
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    font-family: 'Lovelace';
 }
-.con_head2
-{
-    max-width:200px;
-    font-size:30px;
-    letter-spacing:0.1em;
-    font-family:'Lovelace';
+
+.con_head2 {
+    max-width: 200px;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    font-family: 'Lovelace';
 }
-.con_head2 p
-{
-   
-    font-size:30px;
-    font-weight:400;
-    color:lightskyblue;
-    font-family:'Lovelace';
+
+.con_head2 p {
+
+    font-size: 30px;
+    font-weight: 400;
+    color: lightskyblue;
+    font-family: 'Lovelace';
 }
 
 @media screen and (min-width:1000px) {
     .book_tra {
 
         height: 120vh;
-
         background: url(./svgs/book_new_trailer.svg);
         background-size: cover;
-overflow-y:hidden;
+        overflow-y: hidden;
         align-items: center;
         overflow-x: hidden;
-        z-index: 1000;e
-
+        z-index: 1000;
+        e
     }
- 
+
 
 }
 
 @media screen and (max-width: 500px) {
+
     .video {
         /* position: relative; */
         display: block;
@@ -1123,7 +1137,7 @@ overflow-y:hidden;
         padding-left: 50vh;
         margin-left: -26rem;
         margin-top: -2vh;
-    
+
     }
 
     .int-ele2 {
@@ -1149,7 +1163,6 @@ overflow-y:hidden;
         margin-left: 46vw;
         max-width: 170px;
         margin-top: -9rem;
-    }
     }
 
     .int-ele1 {
@@ -1185,7 +1198,6 @@ overflow-y:hidden;
 
     }
 
-
     /* ----------------my story page 2--------- */
 
 
@@ -1202,7 +1214,7 @@ overflow-y:hidden;
 
     }
 
-    
+
 
 
     .s1_p2_rd img {
@@ -1279,14 +1291,15 @@ overflow-y:hidden;
 
     iframe {
         height: 200px;
-        width:400px;
-    }
-    .iframes
-    {
-        height:400px;
-        width:700px;
+        width: 400px;
     }
 
+    .iframes {
+        height: 400px;
+        width: 700px;
+    }
+
+}
 
 
 
@@ -1309,8 +1322,9 @@ overflow-y:hidden;
         height: 22em;
         width: 23em;
         margin-left: 0em;
-        
+
     }
+
     .main_p {
 
         height: auto;
@@ -1320,7 +1334,7 @@ overflow-y:hidden;
         align-items: center;
         overflow-x: hidden;
         z-index: 1000;
-    
+
     }
 
 
@@ -1378,87 +1392,87 @@ overflow-y:hidden;
 
 
     }
-    .contact
-    {
-        background:url(./svgs/contact_tab.svg);
-    height:120vh;
-    width:120vw;
-    margin-left:-50px;
+
+    .contact {
+        background: url(./svgs/contact_tab.svg);
+        height: 120vh;
+        width: 120vw;
+        margin-left: -50px;
         background-size: cover;
         /* width: 100%; */
         align-items: center;
         overflow-x: hidden;
         z-index: 1000;
-     margin-left:-25vw;
-     margin-top:-20vh;
-    
-    }
-    .con_head
-    {
-        max-width:200px;
-        font-size:40px;
-        letter-spacing:0.1em;
-        font-family:'Lovelace';
-        margin-left:20vw;
-    }
-    .con_head p
-    {
-       
-        font-size:50px;
-        font-weight:500;
-        letter-spacing:0.1em;
-        font-family:'Lovelace';
-    }
-    .con_head1
-    {
-        margin-top:5px;
-        max-width:400px;
-        font-size:40px;
-        letter-spacing:0.1em;
-        font-family:'Lovelace';
-        margin-left:20vw;
+        margin-left: -25vw;
+        margin-top: -20vh;
 
     }
-    .con_head1 p
-    {
-       
-        font-size:30px;
-        font-weight:400;
-        letter-spacing:0.1em;
-        font-family:'Lovelace';
+
+    .con_head {
+        max-width: 200px;
+        font-size: 40px;
+        letter-spacing: 0.1em;
+        font-family: 'Lovelace';
+        margin-left: 20vw;
     }
-    .con_head2
-    {
-        max-width:200px;
-        font-size:30px;
-        letter-spacing:0.1em;
-        font-family:'Lovelace';
-        margin-left:20vw;
+
+    .con_head p {
+
+        font-size: 50px;
+        font-weight: 500;
+        letter-spacing: 0.1em;
+        font-family: 'Lovelace';
     }
-    .con_head2 p
-    {
-       
-        font-size:30px;
-        font-weight:400;
-        color:lightskyblue;
-        font-family:'Lovelace';
+
+    .con_head1 {
+        margin-top: 5px;
+        max-width: 400px;
+        font-size: 40px;
+        letter-spacing: 0.1em;
+        font-family: 'Lovelace';
+        margin-left: 20vw;
+
+    }
+
+    .con_head1 p {
+
+        font-size: 30px;
+        font-weight: 400;
+        letter-spacing: 0.1em;
+        font-family: 'Lovelace';
+    }
+
+    .con_head2 {
+        max-width: 200px;
+        font-size: 30px;
+        letter-spacing: 0.1em;
+        font-family: 'Lovelace';
+        margin-left: 20vw;
+    }
+
+    .con_head2 p {
+
+        font-size: 30px;
+        font-weight: 400;
+        color: lightskyblue;
+        font-family: 'Lovelace';
     }
 
 }
+
 @media only screen and(min-width: 700px) and (max-width:900px) {
-    .contact
-    {
-        background:url(./svgs/tabcontact.svg);
-    height:120vh;
-    width:120vw;
-    
+    .contact {
+        background: url(./svgs/tabcontact.svg);
+        height: 120vh;
+        width: 120vw;
+
         background-size: cover;
         /* width: 100%; */
         align-items: center;
         overflow-x: hidden;
         z-index: 1000;
         transform: scale(0.8);
-    
+
     }
 }
 
@@ -1472,4 +1486,3 @@ overflow-y:hidden;
     }
 
 }
-
