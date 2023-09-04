@@ -42,7 +42,7 @@ body {
 
 .footer {
     font-size: 26px;
-    font-family: 'Lovelace';
+    font-family: 'Tenor Sans';
 
     margin-left: 5vw;
     letter-spacing: 0.05em;
@@ -80,7 +80,7 @@ body {
 
 .p3 {
     font-size: 25px;
-    font-family: 'Lovelace';
+    font-family: 'Lovelace text';
     font-weight: lighter;
 }
 
@@ -858,12 +858,6 @@ body {
         padding: 1em;
         margin-top: 0em;
     }
-
-
-
-
-
-
 
     .auth_desc h3 {
         min-width: 350px;
