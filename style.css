@@ -540,6 +540,34 @@ image {
     margin-top: 10vh;
     margin-left: 0vw;
 }
+.picpage{
+    background:url(./svgs/bgggg.svg);
+    background-size: cover;
+    width: 100%;
+    align-items: center;
+    overflow-x: hidden;
+    height:100vh;
+}
+
+.Auth_jur
+{
+    font-family:"Hatton Medium";
+    font-size:60px;
+    max-width:30vw;
+    margin-left:5vw;
+    margin-top:35vh;
+    text-align:center;
+    line-height:10vh;
+}
+.name{
+    font-family:'Courier New', Courier, monospace;
+    font-size:30px;
+    max-width:30vw;
+    margin-left:5vw;
+ 
+    text-align:center;
+    color:#8B93DB;
+}
 
 /* ----------------my story page 1--------- */
 
@@ -976,13 +1004,41 @@ image {
         align-items: center;
         overflow-x: hidden;
         z-index: 1000;
-        e
+        
     }
 
 
 }
 
 @media screen and (max-width: 500px) {
+    .picpage{
+        background:url(./svgs/mobi.svg);
+        background-size: cover;
+        width: 100%;
+        align-items: center;
+        overflow-x: hidden;
+        height:100vh;
+    }
+    
+    .Auth_jur
+{
+    font-family:"Hatton Medium";
+    font-size:30px;
+    max-width:80vw;
+    margin-left:10vw;
+    margin-top:10vh;
+    text-align:center;
+    line-height:10vh;
+}
+.name{
+    font-family:'Courier New', Courier, monospace;
+    font-size:15px;
+    max-width:40vw;
+    margin-left:10vw;
+ 
+    text-align:center;
+    color:#8B93DB;
+}
 
     .video {
         /* position: relative; */
