@@ -336,6 +336,7 @@ body {
 .glimpse-3_img img {
     max-width: 100%;
     height: auto;
+    margin-top: -2em;
 
 
 
@@ -662,6 +663,7 @@ body {
         margin-top: 1em;
         height: 19.2em;
         width: 19em;
+            
     }
 
 
