@@ -15,7 +15,7 @@ body {
 /* main page-------------------------------------- */
 .main_p {
 
-    height: 85vh;
+    height: 86vh;
     background: url(./svgs/Home-6.svg);
     background-size: cover;
     width: 100%;
@@ -100,6 +100,7 @@ body {
     font-family: 'Lovelace';
     font-size: 60px;
     text-align: start;
+    font-weight: 550;
 
 }
 
@@ -153,6 +154,7 @@ body {
     font-family: 'Lovelace';
     font-size: 60px;
     text-align: center;
+    font-weight: 550;
 
 }
 
@@ -169,6 +171,23 @@ body {
     margin-left: -10vw;
 
 }
+
+.abt_book_btn button{
+    margin-top: 2em;
+    padding: 0.3em 2em 0.3em 2em;
+    background-color: white;
+    color: #236f72;
+    border-color: #52599a;
+    font-size: medium;
+}
+.abt_book_btn button:hover {
+    background-color: white;
+    color: #236f72;
+    border-color: #8b3dff;
+    border-width: 0.2em;
+}
+
+
 
 
 /* -----------------------------------book trailer---- */
@@ -297,8 +316,7 @@ body {
     transition: background-color 0.6s ease;
 }
 
-.active,
-.dot:hover {
+.navbt a:hover {
     background-color: #717171;
 }
 
@@ -350,12 +368,15 @@ image {
         height: 300px;
 
     }
+
+
 }
 
 /*carousel ends*/
 .header-links {
     font-family: 'Lovelace';
     font-size: 70px;
+    font-weight: 550;
 }
 
 .event-box-1 {
@@ -479,7 +500,7 @@ image {
 @media only screen and (max-width: 500px) {
     .home-contact {
         background: url(./svgs/Contact\ \(6\).svg);
-        width: 100%;
+        width: 92%;
         height: 80vh;
         align-items: center;
         overflow-x: hidden;
@@ -488,6 +509,7 @@ image {
 
         margin-left: 2em;
     }
+
 }
 
 
@@ -966,12 +988,13 @@ image {
         /* position: relative; */
         display: block;
         margin: auto;
-        padding: 5vh;
+        padding: 2vh;
 
     }
 
+
     .video-head {
-        font-family: 'Pacifico', cursive;
+        font-family: 'Lovelace';
         font-size: 45px;
         text-align: center;
         margin-top: 3vh;
@@ -1024,14 +1047,21 @@ image {
         font-size: 60px;
     }
 
+    .abt_me_auth  {
+        margin-top: 4em;
+    }
     .abt_me_auth h1 {
         font-family: 'lovelace';
         font-size: 50px;
-        text-align: start;
+        text-align: center;
+    }
+    .abt_me_auth h3 {
+        text-align: justify;
+        padding: 0em 1em 0em 1em ;
     }
 
     .header-links {
-        font-family: 'Pacifico', cursive;
+        font-family: 'Lovelace';
         font-size: 50px;
     }
 
@@ -1309,6 +1339,8 @@ image {
         display: none;
     }
 
+  
+
     .abt_book_cnt {
         margin-top: 2em;
     }
@@ -1351,15 +1383,15 @@ image {
     }
 
     .abt_book_cnt h3 {
-        text-align: start;
+        text-align: justify;
         font-weight: 400;
         font-size: 25px;
 
     }
 
     .abt_me_pic img {
-        height: 30em;
-        width: 20em;
+        height: 21em;
+        width: 15em;
 
 
     }
@@ -1372,7 +1404,7 @@ image {
     .main_p {
 
 
-        background: url(./svgs/Home.svg);
+        background: url(./svgs/Home-6.svg);
         background-repeat: no-repeat;
 
     }
@@ -1387,8 +1419,10 @@ image {
 
     .abt_book {
 
-        background: url(./svgs/About_book_mobile.png);
+        background: none;
+        padding: 0em 1em 0em 1em;
         background-repeat: no-repeat;
+        height: auto;
 
 
     }
@@ -1486,3 +1520,14 @@ image {
     }
 
 }
+
+@media (max-width: 1500px){
+    .main_p{
+        height: auto;
+    }
+
+    .abt_book {
+        height: auto;
+
+    }
+} 
